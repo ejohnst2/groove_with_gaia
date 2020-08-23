@@ -1,9 +1,48 @@
 body {
-  background: #f35588 ;
-  color: white;
+  background: white !important;
+  font-family: 'Playfair Display', serif;
 }
 
-header{
+.section {
+  margin: 80px 0;
+  font-family: 'Playfair Display', serif;
+}
+
+.banner {
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+
+.banner h1 {
+  font-size: 78px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+
+}
+
+.contact-item {
+  margin: 40px 0;
+}
+
+.banner h4 {
+  font-size: 40px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.contact-item i {
+  font-size: 32px;
+}
+
+.section-header{
+  margin: 30px 0;
+}
+
+.section p {
+  font-size: 20px;
+}
+
+/*header{
   height: 100vh;
   background: rgba(2,2,2,0.9);
   overflow: hidden;
@@ -23,17 +62,17 @@ header h1{
   font-size: 20vw;
   letter-spacing: 5px;
   margin: 0;
-  background-image: url("https://image.shutterstock.com/z/stock-vector-beautiful-seamless-floral-pattern-background-tropical-flowers-and-plants-222053140.jpg");
+  background-image: url("https://images.pexels.com/photos/460621/pexels-photo-460621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
 }
 
 body{
-  background-image: url("https://image.shutterstock.com/z/stock-vector-beautiful-seamless-floral-pattern-background-tropical-flowers-and-plants-222053140.jpg");
+  background-image: url("https://images.pexels.com/photos/460621/pexels-photo-460621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-attachment: fixed;
 }
 main{
   background: white;
   min-height: 200vh;
   width: 100%;
-}
+}*/
