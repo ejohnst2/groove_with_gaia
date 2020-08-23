@@ -1,0 +1,39 @@
+body {
+  background: #f35588 ;
+  color: white;
+}
+
+header{
+  height: 100vh;
+  background: rgba(2,2,2,0.9);
+  overflow: hidden;
+  position: relative;
+  opacity: 0.5;
+}
+
+header h1{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20vw;
+  letter-spacing: 5px;
+  margin: 0;
+  background-image: url("https://image.shutterstock.com/z/stock-vector-beautiful-seamless-floral-pattern-background-tropical-flowers-and-plants-222053140.jpg");
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+body{
+  background-image: url("https://image.shutterstock.com/z/stock-vector-beautiful-seamless-floral-pattern-background-tropical-flowers-and-plants-222053140.jpg");
+  background-attachment: fixed;
+}
+main{
+  background: white;
+  min-height: 200vh;
+  width: 100%;
+}
