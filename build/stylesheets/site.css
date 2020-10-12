@@ -1,0 +1,82 @@
+body {
+  background: white !important;
+  font-family: 'Playfair Display', serif; }
+
+.section {
+  margin: 80px 0;
+  font-family: 'Playfair Display', serif; }
+
+.banner {
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  font-family: 'Playfair Display', serif; }
+
+.banner h1 {
+  font-size: 78px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); }
+
+.contact-item {
+  margin: 40px 0; }
+
+.banner h4 {
+  font-size: 40px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); }
+
+.contact-item i {
+  font-size: 32px; }
+
+.section-header {
+  margin: 30px 0; }
+
+.section p {
+  font-size: 20px; }
+
+a {
+  color: rgba(0, 0, 0, 0.7); }
+  a:focus, a:hover {
+    color: rgba(0, 0, 0, 0.6); }
+
+.middleman-logo {
+  margin-bottom: 1rem;
+  width: 10rem; }
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white; }
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0; }
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px; }
+
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center; }
+
+.card-product img {
+  height: 100%;
+  width: 120px;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0; }
+
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px; }
+
+.card-product .card-product-infos {
+  padding: 16px; }
