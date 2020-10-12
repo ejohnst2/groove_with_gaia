@@ -1,5 +1,5 @@
 .navbar-lewagon {
-  justify-content: space-between;
+  justify-content: space-between !important;
   background: white;
 }
 
@@ -9,6 +9,10 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.logo-text {
+  margin: 0;
 }
 
 // .avatar {

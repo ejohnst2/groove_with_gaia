@@ -19,27 +19,27 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
-.banner {
-  height: 50vh;
-  background-size: cover;
-  color: white;
-  font-family: 'Playfair Display', serif;
-}
+// .banner {
+//   height: 50vh;
+//   background-size: cover;
+//   color: white;
+//   font-family: 'Playfair Display', serif;
+// }
 
-.banner h1 {
-  font-size: 78px;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+// .banner h1 {
+//   font-size: 78px;
+//   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 
-}
+// }
 
 .contact-item {
   margin: 40px 0;
 }
 
-.banner h4 {
-  font-size: 40px;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-}
+// .banner h4 {
+//   font-size: 40px;
+//   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+// }
 
 .contact-item i {
   font-size: 32px;
@@ -69,3 +69,5 @@ a {
 
 @import "navbar.css.scss";
 @import "card-product.css.scss";
+@import "buttons.css.scss";
+@import "banner.css.scss"
