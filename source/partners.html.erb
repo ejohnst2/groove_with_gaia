@@ -5,7 +5,7 @@
 
   <div class="card-product row">
     <div class="col-md-4 col-xs-12">
-      <%= image_tag('fractal-nature-shot.jpg') %>
+      <%= image_tag('your-super-products.jpg') %>
     </div>
     <div class="col-md-8 col-xs-12 d-flex align-items-center">
       <div class="card-product-infos">
@@ -18,7 +18,7 @@
 
   <div class="card-product row">
     <div class="col-md-4 col-xs-12">
-      <%= image_tag('your-super-products.jpg') %>
+      <%= image_tag('fractal-nature-shot.jpg') %>
     </div>
     <div class="col-md-8 col-xs-12 d-flex align-items-center">
       <div class="card-product-infos">
@@ -34,12 +34,16 @@
   <h1>Protect Our Planet</h1>
   <p>We want you to be in your best health with your best self</p>
 
-  <div class="card-product">
-    <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
-    <div class="card-product-infos">
-      <h2>Fractal Forest</h2>
-      <p>Product description with <strong>relevant info</strong> only.</p>
-      <%= link_to "Plant a Tree", "https://onetreeplanted.org/", target: "_blank", class: "btn-flat" %>
+  <div class="card-product row">
+    <div class="col-md-4 col-xs-12">
+      <%= image_tag('fractal-nature-shot.jpg') %>
+    </div>
+    <div class="col-md-8 col-xs-12 d-flex align-items-center">
+      <div class="card-product-infos">
+        <h2><%= data.partners.one_tree.name %></h2>
+        <p><%= data.partners.one_tree.description %></p>
+        <%= link_to "Shop Now", "https://fractalforestkauai.com/collections/all?ref=QZ_W69TVD", target: "_blank", class: "btn-flat" %>
+      </div>
     </div>
   </div>
 </div>
