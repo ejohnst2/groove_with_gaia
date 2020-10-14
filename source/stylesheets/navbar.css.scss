@@ -9,10 +9,17 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+  margin: 0px 8px;
 }
 
 .logo-text {
   margin: 0;
+}
+
+.mobile-nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
 }
 
 // .avatar {
