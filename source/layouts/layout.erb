@@ -16,7 +16,11 @@
   </head>
   <body>
     <%= partial "partials/navbar" %>
-    <%= partial "partials/banner" %>
+    <% if current_page.data.title.eql?("Welcome to Middleman") %>
+      <%= partial "partials/home_banner" %>
+    <% else %>
+      <%= partial "partials/healing_banner" %>
+    <% end %>
     <div class="container content">
       <%= yield %>
     </div>
