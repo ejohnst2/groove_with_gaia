@@ -1,7 +1,11 @@
 your_super:
   name: "Your Super"
-  description: "Test Test Test Test"
+  description: "Your Super strives to improves people’s health with the power of super plants. Together with nutritionists, they created functional superfood and plant protein mixes that contain naturally dried nutrient-dense wholefoods with no added sweeteners, artificial flavors, fillers or preservatives. Every ingredient is certified organic, non-GMO, glyphosate-free, plant-based, and gluten-free. They have a 100% transparent supply chain with efforts to bring positive impact to the local communities where their ingredients are sourced. In addition, they partnered with Action Against Hunger to donate a life-saving food bar to those in need for every Your Super mix purchased (1:1)."
 
 fractal_forest:
   name: "Fractal Forest"
   description: "Fractal Forest sources the highest quality plant medicine on the planet, while supporting the restoration of natural ecosystems and sustainable harvesting practices. These medicines reflect a deep desire to preserve and share the ethnobotanical wisdom of the Earth. Their ingredients are grown locally on the island of Kauaʻi, Hawaiʻi, and sourced ethically from organic farmers and wildcrafters. All their products are crafted by hand in small batches with healing intentions to awaken consciousness."
+
+one_tree:
+  name: "One Tree Planted"
+  description: "One Tree Planted is a non-profit organization focused on global reforestation. As an environmental charity, they are dedicated to making it simple for individuals and businesses to give back to the environment, create a healthier climate, and protect habitat for biodiversity by planting trees around the world. Trees play a critical role in carbon sequestration and reducing the impacts of climate change. Their planting partners promote agroforestry and provide long-term income sources for local communities so that people and forests can live together in harmony. For each dollar donated, one tree is planted."

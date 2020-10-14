@@ -1,0 +1,139 @@
+
+// best seen at 1500px or less
+
+html, body { height: 100%; }
+body {
+  background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+  overflow: hidden;
+}
+
+.ocean {
+  height: 5%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: #015871;
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
+}
+
+// sandbox for image going up
+
+@keyframes filling {
+  from{
+    background-position: center 25%;
+  }
+  to {
+    background-position: center 50%;
+  }
+}
+
+.container-text {
+  background-image:  url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color:  #FFFFFF;
+  padding-top: 20px;
+  font-size: 170px;
+  font-family: 'Bungee', cursive;
+  animation: filling 3s ease forwards;
+}
+
+// forest popping up
+
+
+body{
+  margin:0;
+  background:#D1EBD4;
+  overflow:hidden;
+  text-align:center;
+  height:100vh;
+  svg{
+    margin:0 auto;
+    width:400px;
+    position:relative;
+    z-index:1;
+    top:50%;
+    height: 100%;
+    @for $i from 1 through 10{
+    .line:nth-of-type(#{$i}){
+      animation: dash_loader 1s $i/10 + 1.4s linear forwards;
+    }
+    }
+  }
+}
+.forest{
+  img{
+    height:100%;
+    max-height:1000px;
+    position:absolute;
+    bottom:100%;
+    left:0;
+  }
+  @for $i from 1 through 10{
+    img:nth-of-type(#{$i}){
+      animation:popup .7s $i/10 + 0s forwards cubic-bezier(0.000, 0.615, 0.000, 0.995);
+    }
+  }
+  .p1{
+  //  bottom:160px;
+  }
+}
+@keyframes popup{
+  from{bottom:-100%;}
+  to{bottom:0;}
+}
+
+path,polyline,line {
+    stroke-dasharray: 750;
+    stroke-dashoffset: 750;
+    stroke-width: 12px;
+    stroke-miterlimit: 10;
+    stroke-linejoin: round;
+    fill: none;
+    stroke: white;
+    z-index: 1;
+    opacity: 1;
+
+}
+
+@keyframes dash_loader {
+    to {
+        stroke-dashoffset: -0;
+        stroke-width: 3px;
+        stroke: white;
+    }
+}
