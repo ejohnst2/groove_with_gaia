@@ -4,12 +4,12 @@
   display: inline-block;
   margin: 5% 0;
   border-radius: 4px;
-  background: #1EDD88;
+  background: $brand-secondary;
   transition: background 0.3s ease;
 }
 
 .btn-flat:hover {
-  background: #1BCB7F;
+  background: #ffba92;
   color: white;
 }
 
