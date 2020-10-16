@@ -1,9 +1,25 @@
 .navbar-lewagon {
-  justify-content: space-between;
+  justify-content: space-between !important;
   background: white; }
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0; }
 
+.navbar-brand p {
+  color: #1fab89; }
+
 .navbar-lewagon .navbar-brand img {
-  width: 40px; }
+  width: 40px;
+  margin-right: 8px; }
+
+.logo-text {
+  margin: 0; }
+
+.mobile-nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #1fab89 !important;
+  /* opacity: 0.5; */ }

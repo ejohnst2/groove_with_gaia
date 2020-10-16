@@ -1,33 +1,176 @@
+.navbar-lewagon {
+  justify-content: space-between !important;
+  background: white; }
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0; }
+
+.navbar-brand p {
+  color: #1fab89; }
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+  margin-right: 8px; }
+
+.logo-text {
+  margin: 0; }
+
+.mobile-nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #1fab89 !important;
+  /* opacity: 0.5; */ }
+
+.card-product {
+  overflow: hidden;
+  margin: 32px 0; }
+
+.card-product img {
+  height: 330px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 4px; }
+
+.card-product h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0; }
+
+.card-product p {
+  font-size: 16px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px; }
+
+.card-product .card-product-infos {
+  padding: 16px; }
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  display: inline-block;
+  margin: 5% 0;
+  border-radius: 4px;
+  background: #ff8080;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease; }
+
+.btn-flat:hover {
+  background: #ffba92;
+  color: white; }
+
+.btn-banner {
+  color: white;
+  padding: 0.375rem 2.75rem !important;
+  display: inline-block;
+  border-radius: 4px;
+  background: #ff8080;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease; }
+
+.btn-banner:hover {
+  background: #1BCB7F;
+  color: white; }
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0; }
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 40px;
+  font-weight: bold; }
+
+.banner p {
+  font-size: 22px;
+  color: white;
+  opacity: .8;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); }
+
+.footer {
+  background: #1fab89;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 240px;
+  padding: 0px 50px;
+  color: white;
+  flex-shrink: 0; }
+
+.footer-links {
+  display: flex;
+  align-items: center; }
+
+.footer-links a {
+  color: white;
+  opacity: 0.60;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px; }
+
+.footer-links a:hover {
+  opacity: 1; }
+
+.footer .fa-heart {
+  color: #D23333; }
+
+.footer-links {
+  color: white;
+  opacity: 0.50; }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    background: #1fab89;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    color: white;
+    flex-shrink: 0; } }
+
+.music-player {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70vh; }
+
 body {
   background: white !important;
-  font-family: 'Playfair Display', serif; }
+  font-family: 'Balsamiq Sans', cursive !important;
+  font-family: 'Playfair Display', serif !important; }
+
+html, body {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column; }
+
+.content {
+  flex: 1 0 auto; }
 
 .section {
   margin: 80px 0;
   font-family: 'Playfair Display', serif; }
 
-.banner {
-  height: 100vh;
-  background-size: cover;
-  color: white;
-  font-family: 'Playfair Display', serif; }
-
-.banner h1 {
-  font-size: 78px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); }
-
 .contact-item {
   margin: 40px 0; }
-
-.banner h4 {
-  font-size: 40px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); }
 
 .contact-item i {
   font-size: 32px; }
 
 .section-header {
-  margin: 30px 0; }
+  margin: 50px 0; }
 
 .section p {
   font-size: 20px; }
@@ -36,47 +179,3 @@ a {
   color: rgba(0, 0, 0, 0.7); }
   a:focus, a:hover {
     color: rgba(0, 0, 0, 0.6); }
-
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem; }
-
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white; }
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0; }
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px; }
-
-.card-product {
-  overflow: hidden;
-  height: 120px;
-  background: white;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center; }
-
-.card-product img {
-  height: 100%;
-  width: 120px;
-  -o-object-fit: cover;
-     object-fit: cover; }
-
-.card-product h2 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0; }
-
-.card-product p {
-  font-size: 12px;
-  line-height: 1.4;
-  opacity: .7;
-  margin-bottom: 0;
-  margin-top: 8px; }
-
-.card-product .card-product-infos {
-  padding: 16px; }

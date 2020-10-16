@@ -1,25 +1,21 @@
 .card-product {
   overflow: hidden;
-  height: 120px;
-  background: white;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center; }
+  margin: 32px 0; }
 
 .card-product img {
-  height: 100%;
-  width: 120px;
+  height: 330px;
+  width: 100%;
   -o-object-fit: cover;
-     object-fit: cover; }
+     object-fit: cover;
+  border-radius: 4px; }
 
 .card-product h2 {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: bold;
   margin: 0; }
 
 .card-product p {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.4;
   opacity: .7;
   margin-bottom: 0;
