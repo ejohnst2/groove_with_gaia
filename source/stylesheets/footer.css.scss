@@ -1,11 +1,11 @@
 .footer {
-  background: #F4F4F4;
+  background: $brand-primary;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 240px;
   padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
+  color: white;
   flex-shrink: 0;
 }
 .footer-links {
@@ -13,8 +13,8 @@
   align-items: center;
 }
 .footer-links a {
-  color: black;
-  opacity: 0.15;
+  color: white;
+  opacity: 0.60;
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
@@ -26,16 +26,21 @@
   color: #D23333;
 }
 
+.footer-links {
+  color: white;
+  opacity: 0.50;
+}
+
 @media only screen and (max-width: 600px) {
   .footer {
-    background: #F4F4F4;
+    background: $brand-primary;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: space-between;
     padding: 20px 50px;
-    color: rgba(0, 0, 0, 0.3);
+    color: white;
     flex-shrink: 0;
   }
 }
