@@ -16,10 +16,12 @@
   </head>
   <body>
     <%= partial "partials/navbar" %>
-    <% if current_page.data.title.eql?("Welcome to Middleman") %>
+    <% if current_page.data.title.eql?("Groove with Gaia") %>
       <%= partial "partials/home_banner" %>
-    <% else %>
+    <% elsif current_page.data.title.eql?("Heal with us") %>
       <%= partial "partials/healing_banner" %>
+    <% else %>
+      <%= partial "partials/music_banner" %>
     <% end %>
     <div class="container content">
       <%= yield %>
