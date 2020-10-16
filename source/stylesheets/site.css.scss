@@ -1,13 +1,10 @@
-// body {
-//   background-color: #fbc547;
-//   color: #333;
-//   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-//     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-//     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-//     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-//   padding: 18vh 1rem;
-//   text-align: center;
-// }
+@import "brand.css.scss";
+@import "navbar.css.scss";
+@import "card-product.css.scss";
+@import "buttons.css.scss";
+@import "banner.css.scss";
+@import "footer.css.scss";
+@import "pages.css.scss";
 
 body {
   background: white !important;
@@ -26,14 +23,6 @@ body {
 .content {
   flex: 1 0 auto;
 }
-
-@import "brand.css.scss";
-@import "navbar.css.scss";
-@import "card-product.css.scss";
-@import "buttons.css.scss";
-@import "banner.css.scss";
-@import "footer.css.scss";
-@import "pages.css.scss";
 
 .section {
   margin: 80px 0;
