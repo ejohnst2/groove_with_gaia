@@ -61,7 +61,7 @@
     padding: 13px;
   }
   .fav > .fav-btn > label:hover,.fav  #fav-check:checked ~ .fav-btn > label {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: white;
   }
   .fav > .fav-btn > label > span {
     display: block;
@@ -88,7 +88,8 @@
     height: 0px;
   }
   .fav > #fav-check:checked ~ .fav-links {
-    height: 40vh;
+    height: 50vh;
+    padding: 0 0 0 10px;
     overflow-y: auto;
   }
 }
