@@ -1,5 +1,8 @@
 @import "brand.css.scss";
 
+.navbar {
+  z-index: 2 !important;
+}
 .navbar-lewagon {
   justify-content: space-between !important;
   background: white;
