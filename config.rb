@@ -7,7 +7,6 @@ end
 
 activate :bootstrap_navbar
 
-
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
@@ -15,7 +14,6 @@ activate :bootstrap_navbar
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'

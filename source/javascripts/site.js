@@ -1,3 +1,4 @@
+
 // var subtleness = 20 // The higher this number the more subtle the effect will be
 // var max_width = 700 // Your max width without px
 // var piece1 = $(".p1"); // Elem
@@ -28,3 +29,4 @@
 
 
 // This is where it all goes :)
+
