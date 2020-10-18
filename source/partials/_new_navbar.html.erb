@@ -1,0 +1,37 @@
+<div class="fav">
+  <input type="checkbox" id="fav-check">
+  <div class="fav-header">
+    <div class="fav-title">
+      <% link_to '/index.html', :relative => true, class: "fav-brand" do %>
+        <div class="d-flex justify-content-center align-items-center">
+          <%= image_tag 'images/gwg-logo.png' %>
+          <p class="m-0">Groove with Gaia</p>
+        </div>
+      <% end %>
+    </div>
+  </div>
+  <div class="fav-btn">
+    <label for="fav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+
+  <div class="fav-links">
+    <%= link_to 'Healing', '/partners.html', :relative => true, class: "nav-link" %>
+    <%= link_to 'Music', '/music.html', :relative => true, class: "nav-link" %>
+    <a href="https://vm.tiktok.com/ZMJhGN2tF/" target="_blank" class="nav-link">
+      <i class="fab fa-tiktok"></i>
+    </a>
+    <a href="mailto: groovewithgaia@gmail.com" target="_blank" class="nav-link">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="https://open.spotify.com/user/mxtfkx8b7dv4h0pxo3eu6gg0e?si=TB6RiTc8QpWM2vL_Qjvf8A" target="_blank" class="nav-link">
+      <i class="fab fa-spotify"></i>
+    </a>
+    <a href="https://www.instagram.com/groovewithgaia/" target="_blank" class="nav-link">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+</div>

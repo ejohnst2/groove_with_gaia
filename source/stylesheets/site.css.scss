@@ -3,6 +3,7 @@
 @import "font-awesome";
 
 @import "navbar.css.scss";
+@import "new_navbar.css.scss";
 @import "card-product.css.scss";
 @import "buttons.css.scss";
 @import "banner.css.scss";
@@ -12,7 +13,7 @@
 
 body {
   background: white !important;
-  font-family: 'Balsamiq Sans', cursive !important;
+  // font-family: 'Balsamiq Sans', cursive !important;
   font-family: 'Playfair Display', serif !important;
 }
 
