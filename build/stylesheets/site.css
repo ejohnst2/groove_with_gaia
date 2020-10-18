@@ -7785,6 +7785,11 @@ a.text-dark:hover, a.text-dark:focus {
 .logo-text {
   margin: 0; }
 
+.mobile-nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between; }
+
 .navbar-light .navbar-nav .nav-link {
   color: #1fab89 !important;
   /* opacity: 0.5; */ }
