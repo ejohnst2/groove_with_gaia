@@ -1,4 +1,12 @@
-.navbar {
+.favbar {
+  background: #1fab89;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0px 50px;
+  color: white;
+  flex-shrink: 0;
   z-index: 2 !important; }
 
 .navbar-lewagon {
@@ -222,7 +230,7 @@
   .fav > #fav-check:not(:checked) ~ .fav-links {
     height: 0px; }
   .fav > #fav-check:checked ~ .fav-links {
-    height: calc(100vh - 200px);
+    height: 100%;
     overflow-y: auto; } }
 
 body {

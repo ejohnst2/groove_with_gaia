@@ -1,6 +1,14 @@
 @import "brand.css.scss";
 
-.navbar {
+.favbar {
+  background: $brand-primary;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0px 50px;
+  color: white;
+  flex-shrink: 0;
   z-index: 2 !important;
 }
 .navbar-lewagon {
