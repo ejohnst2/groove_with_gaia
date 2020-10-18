@@ -12,10 +12,11 @@
 
 
 .fav {
-  height: 50px;
+  height: 80px;
   width: 100%;
-  background-color: #4d4d4d;
+  background-color: white;
   position: relative;
+  z-index: 1;
 }
 
 .fav > .fav-header {
@@ -43,7 +44,7 @@
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
-  color: #efefef;
+  color: $brand-primary;
 }
 
 .fav > .fav-links > a:hover {
@@ -74,17 +75,17 @@
     display: block;
     width: 25px;
     height: 10px;
-    border-top: 2px solid #eee;
+    border-top: 2px solid $brand-primary;
   }
   .fav > .fav-links {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: #333;
+    background-color: white;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 50px;
+    top: 70px;
     left: 0px;
   }
   .fav > .fav-links > a {
@@ -95,7 +96,7 @@
     height: 0px;
   }
   .fav > #fav-check:checked ~ .fav-links {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 200px);
     overflow-y: auto;
   }
 }
