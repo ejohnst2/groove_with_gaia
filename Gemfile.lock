@@ -11,6 +11,10 @@ GEM
     autoprefixer-rails (9.8.6.5)
       execjs
     backports (3.18.2)
+    bootstrap (4.0.0)
+      autoprefixer-rails (>= 6.0.3)
+      popper_js (>= 1.12.9, < 2)
+      sass (>= 3.5.2)
     bootstrap-navbar (3.1.0)
       gem_config (~> 0.3)
     coffee-script (2.4.1)
@@ -89,6 +93,7 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.19.2)
+    popper_js (1.16.0)
     public_suffix (4.0.6)
     rack (2.2.3)
     rb-fsevent (0.10.4)
@@ -116,6 +121,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap (~> 4.0.0)
   font-awesome-sass (~> 4.2.0)
   jquery-middleman
   middleman

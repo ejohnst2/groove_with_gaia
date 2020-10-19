@@ -7773,16 +7773,20 @@ a.text-dark:hover, a.text-dark:focus {
   width: 100%;
   background-color: white;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px; }
 
 .fav > .fav-header {
   display: inline; }
 
 .fav > .fav-header > .fav-title {
   display: inline-block;
-  font-size: 22px;
+  font-size: 18px;
   color: #fff;
-  padding: 10px 10px 10px 10px; }
+  padding: 10px 0px 10px 0px; }
 
 .fav > .fav-btn {
   display: none; }
@@ -7799,7 +7803,8 @@ a.text-dark:hover, a.text-dark:focus {
   color: #1fab89; }
 
 .fav > .fav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3); }
+  background-color: white;
+  color: #ffba92; }
 
 .fav > #fav-check {
   display: none; }
@@ -7832,7 +7837,7 @@ a.text-dark:hover, a.text-dark:focus {
     -webkit-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 70px;
+    top: 58px;
     left: 0px; }
   .fav > .fav-links > a {
     display: block;
@@ -7869,9 +7874,15 @@ a.text-dark:hover, a.text-dark:focus {
   width: 40px;
   margin-right: 8px; }
 
-.navbar-brand img {
+.favbar-brand img {
   width: 40px;
   margin-right: 8px; }
+
+.favbar-brand p {
+  color: #1fab89; }
+
+a, a:hover, a:focus {
+  text-decoration: none !important; }
 
 .logo-text {
   margin: 0; }
@@ -8007,7 +8018,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   background: white !important;
-  font-family: 'Balsamiq Sans', cursive !important;
   font-family: 'Playfair Display', serif !important; }
 
 html, body {
