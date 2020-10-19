@@ -2,7 +2,7 @@ name: Middleman Gh-Pages
 
 on:
   push:
-    branches: [master]
+    branches: [new-deployment]
 
 jobs:
   build_and_deploy:
