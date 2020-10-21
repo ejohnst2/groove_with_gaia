@@ -1,10 +1,9 @@
 <!doctype html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Groove with Gaia" %></title>
     <%= stylesheet_link_tag "site" %>
@@ -12,6 +11,7 @@
     <%= favicon_tag 'images/gwg-logo.png' %>
     <script src="https://kit.fontawesome.com/168bd1b5b7.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <%= partial "partials/new_navbar" %>
