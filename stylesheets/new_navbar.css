@@ -1,0 +1,115 @@
+.fav-brand p {
+  color: #1fab89; }
+
+.fav-brand img {
+  width: 40px;
+  margin-right: 8px; }
+
+.fav {
+  width: 100% !important;
+  background-color: white !important;
+  position: relative !important;
+  z-index: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 0 10px !important; }
+
+.fav > .fav-header {
+  display: inline; }
+
+.fav > .fav-header > .fav-title {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 0px 10px 0px; }
+
+.fav > .fav-btn {
+  display: none; }
+
+.fav > .fav-links {
+  display: inline;
+  float: right;
+  font-size: 18px; }
+
+.fav > .fav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #1fab89; }
+
+.fav > .fav-links > a:hover {
+  background-color: white;
+  color: #ffba92; }
+
+.fav > #fav-check {
+  display: none; }
+
+@media (max-width: 600px) {
+  .fav > .fav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    padding-right: 10px; }
+  .fav > .fav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px; }
+  .fav > .fav-btn > label:hover, .fav #fav-check:checked ~ .fav-btn > label {
+    background-color: white; }
+  .fav > .fav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #1fab89; }
+  .fav > .fav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: white;
+    height: 0px;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 58px;
+    left: 0px; }
+  .fav > .fav-links > a {
+    display: block;
+    width: 100%; }
+  .fav > #fav-check:not(:checked) ~ .fav-links {
+    height: 0px; }
+  .fav > #fav-check:checked ~ .fav-links {
+    height: 50vh;
+    padding: 0 0 0 10px;
+    overflow-y: auto; } }
+
+.favbar {
+  background: #1fab89;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0px 50px;
+  color: white;
+  flex-shrink: 0;
+  z-index: 2 !important; }
+
+.favbar-brand img {
+  width: 40px;
+  margin-right: 8px; }
+
+.favbar-brand p {
+  color: #1fab89; }
+
+a, a:hover, a:focus {
+  text-decoration: none !important; }
+
+.logo-text {
+  margin: 0; }
+
+.mobile-nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between; }
