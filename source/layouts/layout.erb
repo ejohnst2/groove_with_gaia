@@ -10,6 +10,8 @@
     <%= javascript_include_tag "site" %>
     <%= favicon_tag 'images/gwg-logo.png' %>
     <script src="https://kit.fontawesome.com/168bd1b5b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/ui@latest/dist/tailwind-ui.min.css">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180998622-1"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -25,7 +27,7 @@
 
   </head>
   <body>
-    <%= partial "partials/new_navbar" %>
+    <%= partial "partials/newnavtwo" %>
     <% if current_page.data.title.eql?("Groove with Gaia") %>
       <%= partial "partials/home_banner" %>
     <% elsif current_page.data.title.eql?("Heal with us") %>
