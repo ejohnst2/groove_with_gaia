@@ -11,15 +11,15 @@
 }
 
 .fav {
-  height: 80px;
-  width: 100%;
-  background-color: white;
-  position: relative;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 10px;
+  // height: 80px !important;
+  width: 100% !important;
+  background-color: white !important;
+  position: relative !important;
+  z-index: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 0 10px !important;
 }
 
 .fav > .fav-header {

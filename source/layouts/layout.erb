@@ -24,7 +24,9 @@
     </script>
   </head>
   <body>
-    <%= partial "partials/new_navbar" %>
+    <div class="">
+      <%= partial "partials/new_navbar" %>
+    </div>
     <% if current_page.data.title.eql?("Groove with Gaia") %>
       <%= partial "partials/home_banner" %>
     <% elsif current_page.data.title.eql?("Heal with us") %>
