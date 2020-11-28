@@ -6372,6 +6372,10 @@ body {
 .section p {
   font-size: 20px; }
 
+.discount-code {
+  color: #1fab89;
+  font-weight: 700; }
+
 a {
   color: rgba(0, 0, 0, 0.7); }
   a:focus, a:hover {
