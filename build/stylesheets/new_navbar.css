@@ -1,5 +1,5 @@
 .fav-brand p {
-  color: #1fab89; }
+  color: #153b47; }
 
 .fav-brand img {
   width: 40px;
@@ -36,11 +36,11 @@
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
-  color: #1fab89; }
+  color: #153b47; }
 
 .fav > .fav-links > a:hover {
   background-color: white;
-  color: #ffba92; }
+  color: #e9f1de; }
 
 .fav > #fav-check {
   display: none; }
@@ -63,7 +63,7 @@
     display: block;
     width: 25px;
     height: 10px;
-    border-top: 2px solid #1fab89; }
+    border-top: 2px solid #153b47; }
   .fav > .fav-links {
     position: absolute;
     display: block;
@@ -86,7 +86,7 @@
     overflow-y: auto; } }
 
 .favbar {
-  background: #1fab89;
+  background: #153b47;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -101,7 +101,7 @@
   margin-right: 8px; }
 
 .favbar-brand p {
-  color: #1fab89; }
+  color: #153b47; }
 
 a, a:hover, a:focus {
   text-decoration: none !important; }
