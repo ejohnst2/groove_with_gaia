@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/tommysundstrom/middleman-rack-optional-html.git
+  revision: df1e50beca7599f3e47c5b83887573434f3253e3
+  specs:
+    optional_html (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -120,6 +126,7 @@ DEPENDENCIES
   jquery-middleman
   middleman
   middleman-autoprefixer
+  optional_html!
   tzinfo-data
   wdm (~> 0.1)
 

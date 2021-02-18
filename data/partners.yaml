@@ -1,6 +1,6 @@
 your_super:
   name: "Your Super"
-  description: "Your Super strives to improves people’s health with the power of super plants. Together with nutritionists, they created functional superfood and plant protein mixes that contain naturally dried nutrient-dense wholefoods with no added sweeteners, artificial flavors, fillers or preservatives. Every ingredient is certified organic, non-GMO, glyphosate-free, plant-based, and gluten-free. They have a 100% transparent supply chain with efforts to bring positive impact to the local communities where their ingredients are sourced. In addition, they partnered with Action Against Hunger to donate a life-saving food bar to those in need for every Your Super mix purchased (1:1)."
+  description: "Your Super improves people’s health with the power of super plants. Together with nutritionists, they created functional superfood mixes that contain naturally dried nutrient-dense wholefoods with no added sweeteners, artificial flavors, fillers or preservatives. Every ingredient is certified organic, non-GMO, glyphosate-free, plant-based, and gluten-free. They have a 100% transparent supply chain to bring positive impact to the local communities where their ingredients are sourced. In addition, they donate a life-saving food bar to those in need for every Your Super mix purchased (1:1)."
 
 fractal_forest:
   name: "Fractal Forest"
@@ -17,3 +17,7 @@ one_tree:
 ananda_ayurveda:
   name: "Ananda Ayurveda"
   description: "Ananda Ayurveda's mission is to revive the ancient Ayurvedic health system, which brings balance between body, mind and spirit. We love the haritaki powder!"
+
+osea:
+  name: "OSEA"
+  description: "OSEA makes plant-based, gluten-free, cruelty-free skincare products with innovative formulations of certified organic, bioavailable seaweed. In 2002, OSEA became the first company to sign The Compact for Global Production of Safe Health and Beauty Products, an initiative from the Environmental Working Group."

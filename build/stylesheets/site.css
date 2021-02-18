@@ -6107,7 +6107,9 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #ddd !important; } }
 
 .fav-brand p {
-  color: #153b47; }
+  color: #153b47;
+  font-weight: 600;
+  font-size: 16px; }
 
 .fav-brand img {
   width: 40px;
@@ -6224,7 +6226,9 @@ a, a:hover, a:focus {
 
 .card-product {
   overflow: hidden;
-  margin: 32px 0; }
+  margin: 32px 0;
+  display: flex;
+  align-items: center; }
 
 .card-product img {
   height: 330px;
@@ -6344,7 +6348,7 @@ a, a:hover, a:focus {
 
 body {
   background: white !important;
-  font-family: 'Ubuntu', serif !important; }
+  font-family: 'zeitung', serif !important; }
 
 h2, h3 {
   font-family: 'Rosario', serif !important; }
@@ -6361,7 +6365,7 @@ body {
 
 .section {
   margin: 80px 0;
-  font-family: 'Ubuntu', serif; }
+  font-family: 'zeitung', serif; }
 
 .contact-item {
   margin: 40px 0; }

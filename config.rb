@@ -1,6 +1,11 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
+# require 'rack/middleman/optional_html'
+#   use Rack::OptionalHtml,
+#     root: '/groove_with_gaia/source',
+#     urls: %w[/]
+
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end

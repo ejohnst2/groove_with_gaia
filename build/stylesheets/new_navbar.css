@@ -1,5 +1,7 @@
 .fav-brand p {
-  color: #153b47; }
+  color: #153b47;
+  font-weight: 600;
+  font-size: 16px; }
 
 .fav-brand img {
   width: 40px;
